@@ -15,6 +15,8 @@ Command: `msfvenom -p windows/exec cmd=calc.exe -f c -e x86/alpha_mixed`
 
 The final binary is indetectable with Windows Defender. However, more advanced EDR can raise alerts.
 
+![Windows defender scan](https://i.imgur.com/VdQilVU.png)
+
 Here is a comparison between the original shellcode and the shellcode bundled via dropper.
 For a comparison, I used [VirusTotal](https://www.virustotal.com/).
 
